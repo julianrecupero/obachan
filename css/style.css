@@ -1,0 +1,120 @@
+@font-face{
+    src: url('../assets/fonts/Montserrat-Regular.ttf');
+    font-family: 'montserrat-regular';
+}
+
+@font-face{
+    src: url('../assets/fonts/Montserrat-Bold.ttf');
+    font-family: 'montserrat-bold';
+}
+
+@font-face{
+    src: url('../assets/fonts/Montserrat-Medium.ttf');
+    font-family: 'montserrat-medium';
+}
+
+*{
+    box-sizing: border-box;
+    color: #2e3036;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'montserrat-medium', sans-serif;
+    color: #2e3036;
+}
+
+.nav_item{
+    display: inline-block;
+    padding: 15px 30px 10px 0px;
+}
+
+.logo{
+    font-family: 'montserrat-bold', sans-serif;
+    color: #005BAA;
+    font-size: 35px;
+}
+
+.margin-top{
+    margin-top: 60px;
+}
+
+.badge{
+    width: 40px;
+    height: 40px;
+    background-color: #f598a4;
+    display: inline-block;
+    text-align: center;
+    line-height: 42px;
+    border-radius: 50%;
+    color: white;
+}
+
+.margin{
+    margin: 8px;
+}
+
+.fixed-badge{
+    position: fixed;
+    right: 100px;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.full-width{
+    width: 100%;
+}
+
+.v-padding-40{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.h-padding-40{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.no-padding{
+    padding: 0;
+}
+
+.h2{
+    font-family: serif;
+    color: white;
+    font-size: 50px;
+    margin: 25px;
+    padding: 0px;
+}
+
+.p{
+    font-family: sans-serif;
+    color:white;
+    font-size: 20px;
+    margin:25px;
+    
+}
+
+.animation-1{
+    transition: all ease 1s;
+}
+
+.animation-1:hover{
+    transform: scale(0.9) rotate(2deg);
+}
+
+.animation-2 #homewares{
+    transition: all ease 0.5s;
+}
+
+.animation-2:hover #homewares{
+    transform: scale(0.96) rotate(-.7deg);
+}
