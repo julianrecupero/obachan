@@ -1,0 +1,12 @@
+LINEA DE COMANDOS
+
+- cd (cambiar directorio)
+- "cd .." -> vuelve una carpeta hacia atrás
+- "cd <nombre de la carpeta>" -> va hacia la carpeta indicada
+- "git clone <url del repositorio>" -> clona un repositorio en la carpeta en la que estés parado
+- "git config --global user.email "julianrecupero@gmail.com" -> Esto configura a nivel global de tu PC tu mail de cuenta de github
+- "git config --global user.name 'julianrecupero'" -> Esto configura a nivel global de tu PC tu usuario de cuenta de github
+- "git add <nombre de archivo o carpeta, o '.' (significa 'todo")>" -> Agrega los archivos deseados para poder comitearlos
+- "git commit -m '<descripción del commit>'" -> Guarda los cambios en un commit
+- "git pull" -> Trae todos los cambios que hayan sido subidos al repositorio por otras personas
+- "git push" -> Sube todos los commits que hayan sido guardados

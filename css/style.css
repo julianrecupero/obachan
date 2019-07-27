@@ -27,6 +27,7 @@ body{
 .nav_item{
     display: inline-block;
     padding: 15px 30px 10px 0px;
+    font-weight: bold;
 }
 
 .logo{
@@ -37,6 +38,10 @@ body{
 
 .margin-top{
     margin-top: 60px;
+}
+
+.margin-top-100{
+    margin-top: 100px;
 }
 
 .badge{
@@ -50,8 +55,19 @@ body{
     color: white;
 }
 
+.read{
+    color: #f598a4;
+    margin: 25px;
+    font-weight: bold;
+    margin-top: 75px;
+}
+
 .margin{
     margin: 8px;
+}
+
+.margin-l{
+    margin-left: 25px;
 }
 
 .fixed-badge{
@@ -78,9 +94,28 @@ body{
     padding-bottom: 40px;
 }
 
+
 .h-padding-40{
     padding-left: 40px;
     padding-right: 40px;
+}
+
+.v-padding-10{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.h-padding-10{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.top-padding{
+    padding-top: 100px;
+}
+
+.no-pd-bottom{
+    padding-bottom: 0;
 }
 
 .no-padding{
@@ -95,12 +130,33 @@ body{
     padding: 0px;
 }
 
+.size{
+    font-family: serif;
+    font-size: 40px;
+    margin: 25px;
+}
+
 .p{
     font-family: sans-serif;
     color:white;
     font-size: 20px;
     margin:25px;
     
+}
+
+.black{
+    color: #2e3036;
+    font-size: 40px;
+}
+
+.gray{
+    color: gray;
+    font-size: 15px;
+}
+
+.tachado{
+    text-decoration:line-through;
+    color: gray;
 }
 
 .animation-1{
