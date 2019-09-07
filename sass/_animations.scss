@@ -1,0 +1,26 @@
+.tachado{
+    text-decoration:line-through;
+    color: gray;
+}
+
+.animation{
+    &-1{
+        transition: all ease 1s;
+        &:hover{
+            transform: scale(0.9) rotate(2deg);
+        }
+    }
+
+    &-2{
+        #homewares{
+            transition: all ease 0.5s;
+        }
+
+        &:hover {
+            #homewares{
+                transform: scale(0.96) rotate(-.7deg);
+            }
+        }
+    }
+    
+}

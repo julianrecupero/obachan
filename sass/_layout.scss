@@ -1,0 +1,74 @@
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.size{
+    font-family: serif;
+    font-size: 40px;
+    margin: 25px;
+}
+
+.full-width{
+    width: 100%;
+}
+
+.top-padding{
+    padding-top: 100px;
+}
+
+
+.h-padding{
+    &-10{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    &-40{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+.v-padding{
+    &-10{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    &-40{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+.margin{
+    margin: 8px;
+
+    &-top{
+        margin-top: 60px;
+
+        &-100{
+            margin-top: 100px;
+        }
+    }
+
+    &-l{
+        margin-left: 25px;
+    }
+}
+
+.no{
+    &-pd-bottom{
+        padding-bottom: 0;
+    }
+
+    &-padding{
+        padding: 0;
+    }
+}

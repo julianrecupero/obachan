@@ -1,3 +1,24 @@
+//////////////////////////////////////////////////////////////////////////
+//HERENCIA: Al usar el ampersand (&) "copiamos" el nombre de la clase padre y le agregamos lo que querramos
+
+// Esto es lo mismo que hacer...
+.badge{
+    width: 40px;
+    height: 40px;
+    background-color: #f598a4;
+    display: inline-block;
+    text-align: center;
+    line-height: 42px;
+    border-radius: 50%;
+    color: white;
+
+    &-fixed{
+        position: fixed;
+        right: 100px;
+    }
+}
+
+// Esto!
 .badge{
     width: 40px;
     height: 40px;
@@ -9,7 +30,43 @@
     color: white;
 }
 
-.fixed-badge{
+.badge-fixed{
     position: fixed;
     right: 100px;
+}
+////////////////////////////////////////////////////////////////////
+
+// ESTO NO ES HERENCIA. Esto es anidamiento de JERARQUÍAS
+// Esto es lo mismo que hacer...
+.badge-fixed{
+    position: fixed;
+    right: 100px;
+
+    .badge{
+        width: 40px;
+        height: 40px;
+        background-color: #f598a4;
+        display: inline-block;
+        text-align: center;
+        line-height: 42px;
+        border-radius: 50%;
+        color: white;
+    }
+}
+
+// Esto!
+.badge-fixed{
+    position: fixed;
+    right: 100px;
+}
+
+.badge-fixed .badge{
+    width: 40px;
+    height: 40px;
+    background-color: #f598a4;
+    display: inline-block;
+    text-align: center;
+    line-height: 42px;
+    border-radius: 50%;
+    color: white;
 }

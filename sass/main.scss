@@ -1,21 +1,24 @@
-@import './components/navigation';
+*{
+    box-sizing: border-box;
+    color: #2e3036;
+    text-decoration: none;
+}
 
-@import './components/body';
+body{
+    font-family: 'montserrat-medium', sans-serif;
+    color: #2e3036;
+}
 
-@import './components/margins';
+@import './layout';
 
-@import './components/paddings';
+@import './colors';
 
-@import './components/colors';
+@import './typography';
 
-@import './components/h-p';
-
-@import './components/size'; 
-
-@import './components/position';
+@import './animations';
 
 @import './components/badge';
 
 @import './components/logo';
 
-@import './components/animations';
+@import './components/navigation';
